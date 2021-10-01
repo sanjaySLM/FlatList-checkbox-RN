@@ -12,7 +12,7 @@ export default function App() {
   const selectedData = data.filter((value) => checked.includes(value.id));
   console.log("checked", checked);
   console.log("selectedData", selectedData);
-  const renderItem = (itemData) => {
+  const renderItem = (itemData) => { 
     return (
       <View style={styles.checkboxContainer}>
         <View style={styles.checkboxTextCointainer}>
