@@ -36,7 +36,6 @@ export default function App() {
       </View>
     );
   };
- //test
   const renderSelectedItem = (itemData) => {
     return (
       <View>
